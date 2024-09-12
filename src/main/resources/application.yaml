@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ClientRegister
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/registerUser
+      username: kevin
+      password: kevin
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui/index.html
+    operations-sorter: method
+    display-request-duration: true
